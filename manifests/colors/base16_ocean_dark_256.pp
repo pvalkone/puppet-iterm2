@@ -1,0 +1,56 @@
+# Public: Imports the Base16 Ocean Dark 256 color scheme
+#
+# Usage:
+#
+#   include iterm2::colors::base16_ocean_dark_256
+class iterm2::colors::base16_ocean_dark_256 (
+  $ansi_0_color        = [0.16862745098039217, 0.18823529411764706, 0.23137254901960785],
+  $ansi_1_color        = [0.7490196078431373, 0.3803921568627451, 0.41568627450980394],
+  $ansi_2_color        = [0.6392156862745098, 0.7450980392156863, 0.5490196078431373],
+  $ansi_3_color        = [0.9215686274509803, 0.796078431372549, 0.5450980392156862],
+  $ansi_4_color        = [0.5607843137254902, 0.6313725490196078, 0.7019607843137254],
+  $ansi_5_color        = [0.7058823529411765, 0.5568627450980392, 0.6784313725490196],
+  $ansi_6_color        = [0.5882352941176471, 0.7098039215686275, 0.7058823529411765],
+  $ansi_7_color        = [0.7529411764705882, 0.7725490196078432, 0.807843137254902],
+  $ansi_8_color        = [0.396078431372549, 0.45098039215686275, 0.49411764705882355],
+  $ansi_9_color        = [0.7490196078431373, 0.3803921568627451, 0.41568627450980394],
+  $ansi_10_color       = [0.6392156862745098, 0.7450980392156863, 0.5490196078431373],
+  $ansi_11_color       = [0.9215686274509803, 0.796078431372549, 0.5450980392156862],
+  $ansi_12_color       = [0.5607843137254902, 0.6313725490196078, 0.7019607843137254],
+  $ansi_13_color       = [0.7058823529411765, 0.5568627450980392, 0.6784313725490196],
+  $ansi_14_color       = [0.5882352941176471, 0.7098039215686275, 0.7058823529411765],
+  $ansi_15_color       = [0.9372549019607843, 0.9450980392156862, 0.9607843137254902],
+  $background_color    = [0.16862745098039217, 0.18823529411764706, 0.23137254901960785],
+  $bold_color          = [0.7529411764705882, 0.7725490196078432, 0.807843137254902],
+  $cursor_color        = [0.7529411764705882, 0.7725490196078432, 0.807843137254902],
+  $cursor_text_color   = [0.16862745098039217, 0.18823529411764706, 0.23137254901960785],
+  $foreground_color    = [0.7529411764705882, 0.7725490196078432, 0.807843137254902],
+  $selected_text_color = [0.7529411764705882, 0.7725490196078432, 0.807843137254902],
+  $selection_color     = [0.30980392156862746, 0.3568627450980392, 0.4],
+) {
+  iterm2::colors { 'Base16 Ocean Dark 256':
+    ansi_0_color        => $ansi_0_color,
+    ansi_1_color        => $ansi_1_color,
+    ansi_2_color        => $ansi_2_color,
+    ansi_3_color        => $ansi_3_color,
+    ansi_4_color        => $ansi_4_color,
+    ansi_5_color        => $ansi_5_color,
+    ansi_6_color        => $ansi_6_color,
+    ansi_7_color        => $ansi_7_color,
+    ansi_8_color        => $ansi_8_color,
+    ansi_9_color        => $ansi_9_color,
+    ansi_10_color       => $ansi_10_color,
+    ansi_11_color       => $ansi_11_color,
+    ansi_12_color       => $ansi_12_color,
+    ansi_13_color       => $ansi_13_color,
+    ansi_14_color       => $ansi_14_color,
+    ansi_15_color       => $ansi_15_color,
+    background_color    => $background_color,
+    bold_color          => $bold_color,
+    cursor_color        => $cursor_color,
+    cursor_text_color   => $cursor_text_color,
+    foreground_color    => $foreground_color,
+    selected_text_color => $selected_text_color,
+    selection_color     => $selection_color,
+  }
+}
